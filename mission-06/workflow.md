@@ -2,15 +2,15 @@
 
 ## Task 6.1 — Status, staging, commit, and history
 
-`git status` reports the current branch and which files are modified, staged, or untracked. `git add` stages selected changes: it prepares a snapshot but does not yet save that snapshot to the repository history. `git commit` records the staged snapshot as a named point in the local history. `git log` shows recent commits so a collaborator can see what has already been recorded.
+I use `git status` to see my current branch and which files are changed, staged, or untracked. `git add` stages the changes I choose, but it does not save them to history yet. `git commit` records the staged changes in the project history. `git log` lets me look back at the commits that have already been made.
 
 ## Task 6.2 — Branch and README change
 
-The `update-about` branch isolates the learning-notes change from `main`. The root README's `My Learning` section records three things learned so far. The branch is published so GitHub can compare it with `main`.
+I used the `update-about` branch for my learning notes so they stay separate from `main`. I added three things I have learned so far to the root README, then published the branch for review.
 
 ## Task 6.3 — Pull request
 
-A pull request (PR) proposes changes from one branch to another and provides a place to inspect the diff, discuss it, and request changes before merging. A PR helps collaborators review work without directly changing the target branch. The Mission 6 PR targets `main` and is intentionally left open; it has not been merged.
+A pull request (PR) asks for changes from one branch to be reviewed before they go into another branch. It gives people a place to look at the changes, discuss them, and suggest edits. My Mission 6 PR targets `main` and is still open; I have not merged it.
 
 ## Task 6.4 — Git glossary
 

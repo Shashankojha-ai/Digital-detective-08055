@@ -19,15 +19,15 @@ Git commands used included `status`, `log`, `add`, `commit`, `switch -c`, `push`
 
 ## My understanding
 
-Staging selects which file changes will go into the next commit; committing saves that selected snapshot in local history. A branch gives work its own line of development, so it can be prepared without changing `main`. A pull request proposes those changes for review and discussion before merging. Keeping this PR open means it has not been merged into `main`.
+I use staging to choose which file changes go into my next commit. A commit saves those selected changes in the project history. A branch lets me work without changing `main`, and a pull request lets others review my changes before they are merged. I left this PR open, so it has not changed `main`.
 
 ## Difficulties faced
 
-The published `main` branch had advanced by one commit after my local checkout was created. That commit removed the Mission 5 converter file.
+My local copy was one commit behind `main`. That newer commit removed the Mission 5 converter file, so I checked the change before creating my branch.
 
 ## How resolved
 
-I inspected the new commit and started `update-about` from the fetched current `main`, preserving the existing remote change rather than overwriting it.
+I fetched the latest `main`, inspected the commit, and started `update-about` from it. This kept the existing remote change intact.
 
 ## Evidence/files
 
