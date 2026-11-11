@@ -13,10 +13,12 @@ Created the GitHub workspace for the `digital-detective-8055` project in the pub
 
 - `README.md` — project overview, mission index, and completion summary.
 - `mission-00-github-workspace/README.md` — this setup record.
-- `mission-01/` through `mission-04/` — empty mission README placeholders.
-- `mission-05-numbers-data/README.md` and `mission-05-numbers-data/number_converter.py` — empty placeholders for the future mission.
-- `mission-06/` through `mission-08/` — empty mission README placeholders.
-- `evidence/` — directory reserved for mission evidence.
+- `mission-01/` through `mission-04/` — empty README placeholders; these missions have not been started.
+- `mission-05-numbers-data/README.md` and `mission-05-numbers-data/number_converter.py` — empty placeholders; Mission 5 has not been started.
+- `mission-06/` through `mission-08/` — empty README placeholders; these missions have not been started.
+- `evidence/mission-00-setup.md` — the evidence record for this setup.
+
+The root `README.md` links to every mission folder and summarizes which missions are complete and pending.
 
 ## What a repository is
 
@@ -24,4 +26,8 @@ A repository is a project space that stores files and their change history. Keep
 
 ## Setup difficulties
 
-The public GitHub repository was empty when setup began, so there were no existing project files or published branch to build on. This setup creates the initial project structure and its first published commit. No other setup difficulties were encountered.
+The public GitHub repository had no published branch or project files when setup began. I created the initial project structure and published it as the first commit on `main`. No other setup difficulties were encountered.
+
+## Evidence
+
+Evidence is a checkable record that supports a mission's completion claim. For this setup, the evidence is the publicly accessible repository, its published commit, and the repository tree and file checks recorded in [`evidence/mission-00-setup.md`](../evidence/mission-00-setup.md). No screenshot was captured, so this record does not claim one.

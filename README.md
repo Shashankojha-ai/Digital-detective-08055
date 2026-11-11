@@ -1,6 +1,6 @@
 # Digital Detective
 
-Digital Detective is a hands-on project for completing a sequence of missions. Each mission has its own folder so its instructions, work, and evidence stay organized.
+Digital Detective is a hands-on project for completing a sequence of missions. Each mission has its own folder so its instructions and work stay organized. The `evidence/` folder holds proof that a mission's work was completed.
 
 ## Mission index
 
@@ -18,5 +18,5 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 
 ## Completion summary
 
-- Mission 0: created the public GitHub workspace, mission folder structure, placeholder files, and evidence directory.
+- Mission 0: created the public GitHub workspace, mission folder structure, and placeholders. See the [Mission 0 evidence record](evidence/mission-00-setup.md).
 - Missions 1–8: not started.
