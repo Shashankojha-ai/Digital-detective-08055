@@ -1,0 +1,44 @@
+# Mission 5 — Number systems and data representation
+
+## Task and objective
+
+Convert between decimal, binary, and hexadecimal; verify results with Python; build a small number converter; and explain text encoding.
+
+## Work completed
+
+- Showed the working for all seven required manual conversions.
+- Checked each example with Python's built-in conversion functions.
+- Wrote `number_converter.py` to read a decimal integer and print binary and hexadecimal representations.
+- Ran the converter with three positive inputs: 13, 25, and 255.
+- Recorded ASCII decimal codes for `A` and `a`, and gave an example outside basic ASCII.
+
+## Commands/tools used
+
+- `python3 --version` — observed Python 3.9.6.
+- Python interactive expressions using `bin()`, `hex()`, and `int(..., base)`.
+- `python3 number_converter.py` — ran and tested the converter.
+- Markdown files for calculation notes and sanitized test evidence.
+
+## My understanding
+
+Binary uses powers of 2 and hexadecimal uses powers of 16. Grouping four binary digits makes one hexadecimal digit because each four-bit group can represent values 0 through 15. Python's built-in functions make these conversions easy to verify. Text encoding maps characters to numeric data so computers can store and exchange written text.
+
+## Difficulties faced
+
+No technical difficulties occurred during the calculations or tests.
+
+## How I resolved them
+
+No difficulty needed resolution. I compared the built-in results with the written working and checked three different positive inputs through the converter.
+
+## Evidence/files
+
+- [Manual conversions, Python checks, and text encoding answers](conversions.md)
+- [Python decimal-to-binary/hex converter](number_converter.py)
+- [Sanitized interactive checks and three program runs](evidence/converter-runs.md)
+
+## Commit details
+
+- Commit message: `Build number converter and practise data representation`
+- Published branch: `main`
+- The commit is available in the repository's [commit history](https://github.com/Shashankojha-ai/digital-detective-8055/commits/main).
