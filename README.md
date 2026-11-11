@@ -23,3 +23,9 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 - Mission 2: practised CLI file management, listings, pipes, and Homebrew checks. See the [Mission 2 README](mission-02/README.md).
 - Mission 3: inspected the OS, process list, paths, and file permissions, and documented OS responsibilities. See the [Mission 3 README](mission-03/README.md).
 - Missions 4–8: not started.
+
+## My Learning
+
+- I learned how input, processing, output, and storage work together in a computer system.
+- I learned that staging selects changes for a commit, while a commit records those selected changes in history.
+- I learned that a branch and pull request let work be shared and reviewed separately before it is merged.
