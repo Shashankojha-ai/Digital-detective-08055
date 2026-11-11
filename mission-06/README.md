@@ -40,4 +40,4 @@ I fetched the latest `main`, inspected the commit, and started `update-about` fr
 - Mission files commit: `e7e7ee0` — `Document Git workflow and terminology`
 - Root README commit: `182248b` — `Add Mission 6 learning notes`
 - Branch: `update-about`
-- Pull request: [#1](https://github.com/Shashankojha-ai/digital-detective-8055/pull/1), open and unmerged for review.
+- Pull request: [#1](https://github.com/Shashankojha-ai/digital-detective-8055/pull/1), created from `update-about` into `main` and later merged on GitHub.

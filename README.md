@@ -1,6 +1,6 @@
 # Digital Detective
 
-Digital Detective is a hands-on project for completing a sequence of missions. Each mission has its own folder so its instructions and work stay organized. The `evidence/` folder holds proof that a mission's work was completed.
+Digital Detective is a hands-on project about computer systems, command-line tools, programming, data representation, version control, and networks. Each mission has its own folder for the work, and its evidence files record relevant observations and results.
 
 ## Mission index
 
@@ -10,11 +10,11 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 | 1 — Know your computer | Complete | [mission-01](mission-01/README.md) |
 | 2 — Command-line interface and package managers | Complete | [mission-02](mission-02/README.md) |
 | 3 — Operating systems, processes, paths, and permissions | Complete | [mission-03](mission-03/README.md) |
-| 4 | Pending | [mission-04](mission-04/README.md) |
-| 5 | Pending | [mission-05-numbers-data](mission-05-numbers-data/README.md) |
-| 6 | Pending | [mission-06](mission-06/README.md) |
-| 7 | Pending | [mission-07](mission-07/README.md) |
-| 8 | Pending | [mission-08](mission-08/README.md) |
+| 4 — Compilers and interpreters | Complete | [mission-04](mission-04/README.md) |
+| 5 — Number systems and data representation | Complete | [mission-05-numbers-data](mission-05-numbers-data/README.md) |
+| 6 — Version control and collaboration | Complete | [mission-06](mission-06/README.md) |
+| 7 — Networks and the internet | Complete | [mission-07](mission-07/README.md) |
+| 8 — Final review | Complete | [mission-08](mission-08/README.md) |
 
 ## Completion summary
 
@@ -22,10 +22,25 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 - Mission 1: documented IPOS, hardware and software, and three everyday computer-based systems. See the [Mission 1 README](mission-01/README.md).
 - Mission 2: practised CLI file management, listings, pipes, and Homebrew checks. See the [Mission 2 README](mission-02/README.md).
 - Mission 3: inspected the OS, process list, paths, and file permissions, and documented OS responsibilities. See the [Mission 3 README](mission-03/README.md).
-- Missions 4–8: not started.
+- Mission 4: ran a Python program and compared compilers and interpreters.
+- Mission 5: worked through manual number conversions, Python checks, and text encoding; the arithmetic-based shell converter below is an alternative that does not use Python.
+- Mission 6: documented Git workflow and terminology; its pull request was merged on GitHub.
+- Mission 7: explained network concepts, checked public DNS and reachability, and described a browser request.
+- Mission 8: reviewed the project structure, mission reports, evidence links, and current publication status. See the [final review](mission-08/README.md).
+
+## Run the arithmetic converter
+
+The Bash alternative uses repeated division and remainders for binary conversion, and division by 16 with remainders for hexadecimal conversion. Run it from the repository root:
+
+```sh
+bash mission-05-numbers-data/number_converter.sh
+```
+
+Enter a positive decimal whole number when prompted. For example, input `13` produces binary `1101` and hexadecimal `D`. The original `number_converter.py` file is empty; this alternative follows the arithmetic-focused approach and does not invoke Python.
 
 ## My Learning
 
 - I learned how input, processing, output, and storage work together in a computer system.
 - I learned that staging selects changes for a commit, while a commit records those selected changes in history.
 - I learned that a branch and pull request let work be shared and reviewed separately before it is merged.
+- I learned that repeated division and remainders can build binary and hexadecimal representations from a decimal number.
