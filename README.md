@@ -9,7 +9,7 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 | 0 — Create your GitHub workspace | Complete | [mission-00-github-workspace](mission-00-github-workspace/README.md) |
 | 1 — Know your computer | Complete | [mission-01](mission-01/README.md) |
 | 2 — Command-line interface and package managers | Complete | [mission-02](mission-02/README.md) |
-| 3 | Pending | [mission-03](mission-03/README.md) |
+| 3 — Operating systems, processes, paths, and permissions | Complete | [mission-03](mission-03/README.md) |
 | 4 | Pending | [mission-04](mission-04/README.md) |
 | 5 | Pending | [mission-05-numbers-data](mission-05-numbers-data/README.md) |
 | 6 | Pending | [mission-06](mission-06/README.md) |
@@ -21,4 +21,5 @@ Digital Detective is a hands-on project for completing a sequence of missions. E
 - Mission 0: created the public GitHub workspace, mission folder structure, and placeholders. See the [Mission 0 evidence record](evidence/mission-00-setup.md).
 - Mission 1: documented IPOS, hardware and software, and three everyday computer-based systems. See the [Mission 1 README](mission-01/README.md).
 - Mission 2: practised CLI file management, listings, pipes, and Homebrew checks. See the [Mission 2 README](mission-02/README.md).
-- Missions 3–8: not started.
+- Mission 3: inspected the OS, process list, paths, and file permissions, and documented OS responsibilities. See the [Mission 3 README](mission-03/README.md).
+- Missions 4–8: not started.
