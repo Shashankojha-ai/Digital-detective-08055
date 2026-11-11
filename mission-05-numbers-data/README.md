@@ -7,7 +7,7 @@ Convert between decimal, binary, and hexadecimal; verify results with Python; bu
 ## Work completed
 
 - Showed the working for all seven required manual conversions.
-- Checked each example with Python's built-in conversion functions.
+- Separately checked each example with Python's built-in conversion functions; these checks do not replace the manual arithmetic.
 - Wrote `number_converter.py` to read a decimal integer and print binary and hexadecimal representations.
 - Ran the converter with three positive inputs: 13, 25, and 255.
 - Recorded ASCII decimal codes for `A` and `a`, and gave an example outside basic ASCII.
@@ -21,7 +21,7 @@ Convert between decimal, binary, and hexadecimal; verify results with Python; bu
 
 ## My understanding
 
-Binary uses powers of 2 and hexadecimal uses powers of 16. Grouping four binary digits makes one hexadecimal digit because each four-bit group can represent values 0 through 15. Python's built-in functions make these conversions easy to verify. Text encoding maps characters to numeric data so computers can store and exchange written text.
+Binary uses powers of 2 and hexadecimal uses powers of 16. I can convert decimal to binary by repeatedly dividing by 2, subtracting each remainder, and reading the remainders in reverse. To convert binary or hexadecimal to decimal, I multiply each digit by its place value and add the results. Grouping four binary digits makes one hexadecimal digit because each four-bit group can represent values 0 through 15. Python is used separately to check the arithmetic and to complete the requested converter task. Text encoding maps characters to numeric data so computers can store and exchange written text.
 
 ## Difficulties faced
 
@@ -41,4 +41,4 @@ No difficulty needed resolution. I compared the built-in results with the writte
 
 - Commit message: `Build number converter and practise data representation`
 - Published branch: `main`
-- The commit is available in the repository's [commit history](https://github.com/Shashankojha-ai/digital-detective-8055/commits/main).
+- The original mission commit and the manual-arithmetic clarification are both recorded in the repository's [commit history](https://github.com/Shashankojha-ai/digital-detective-8055/commits/main).

@@ -4,7 +4,7 @@ These are actual Python 3.9.6 runs from the Mission 5 folder. The examples use p
 
 ## Built-in conversion checks
 
-The expressions were sent to Python's interactive mode using:
+The manual arithmetic is shown in [`conversions.md`](../conversions.md). These Python expressions are a separate verification step, not the method used to work out those answers. They were sent to Python's interactive mode using:
 
 ```sh
 printf 'bin(13)[2:]\nbin(25)[2:]\nint("1010", 2)\nint("1101", 2)\nhex(10)[2:].upper()\nint("1F", 16)\nhex(int("1111", 2))[2:].upper()\nexit()\n' | python3 -i
